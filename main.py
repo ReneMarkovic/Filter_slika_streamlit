@@ -6,7 +6,7 @@ from  PIL import Image, ImageEnhance
 #Add a header and expander in side bar
 st.sidebar.markdown('<p class="font">Aplikacija za obdelavo slik</p>', unsafe_allow_html=True)
 with st.sidebar.expander("O aplikaciji"):
-     st.write("""
+     st.write("""By: Rene Markovič\n
         Ustvarite sliko s fotoaporatom in jo naložite. Vašo najljubšo sliko lahko pretvorite v sliko, li izgleda kot narisana s svinčnikom, sivinsko sliko ali sliko, ki je zasanjano zamegljena. Ta aplikacija je samo testna aplikacija, za testno zaganjanje spletnih alikacij.
      """)
 
